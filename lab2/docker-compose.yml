@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  game-2048_3:
+    build: .
+    ports:
+      - "8082:8080"
+
+  game-2048_4:
+    build: .
+    ports:
+      - "8083:8080"
